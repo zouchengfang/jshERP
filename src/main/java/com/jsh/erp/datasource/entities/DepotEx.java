@@ -17,4 +17,20 @@ public class DepotEx extends Depot{
 
     private BigDecimal stock;
 
+	public String getPrincipalName() {
+		return principalName;
+	}
+
+	public void setPrincipalName(String principalName) {
+		this.principalName = principalName;
+	}
+
+	public BigDecimal getStock() {
+		return stock;
+	}
+
+	public void setStock(BigDecimal stock) {
+		this.stock = stock;
+	}
+
 }
