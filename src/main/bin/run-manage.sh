@@ -1,4 +1,5 @@
 SERVER_NAME=jshERP
+echo '${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}'
 readonly APP_HOME=${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}
 
 #readonly JAVA_HOME=""
