@@ -1,10 +1,10 @@
 SERVER_NAME=jshERP
-echo ${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}
-readonly APP_HOME=${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}
+echo ${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}/jshERP2.0
+readonly APP_HOME=${FILE_PATH:-$(dirname $(cd `dirname $0`; pwd))}/jshERP2.0
 
 #readonly JAVA_HOME=""
 
-readonly CONFIG_HOME="$APP_HOME/config/"
+readonly CONFIG_HOME="$APP_HOME/config/application.properties"
 readonly LIB_HOME="$APP_HOME/lib"
 readonly LOGS_HOME="$APP_HOME/logs"
 
