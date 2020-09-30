@@ -57,6 +57,10 @@ http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 ">
             </includes>
         </fileSet>
         <fileSet>
+            <directory>logs</directory>
+            <outputDirectory>/logs</outputDirectory>
+        </fileSet>
+        <fileSet>
             <directory>docs</directory>
             <outputDirectory>/docs</outputDirectory>
         </fileSet>
