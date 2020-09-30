@@ -1,1 +1,1 @@
-./bin/run-manage.sh status
+./run-manage.sh status

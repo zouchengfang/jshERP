@@ -1,1 +1,1 @@
-./bin/run-manage.sh stop
+./run-manage.sh stop
