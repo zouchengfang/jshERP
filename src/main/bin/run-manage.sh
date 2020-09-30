@@ -14,7 +14,7 @@ readonly LOG_CONFIG="$CONFIG_HOME/logback-spring.xml"
 readonly POP_FILE="$CONFIG_HOME/application.properties"
 
 readonly JAVA_RUN="-Dlogs.home=$LOGS_HOME -Dlogging.config=$LOG_CONFIG -Dspring.config.location=file:$POP_FILE -Dspring.pid.file=$PID_FILE -Dspring.pid.fail-on-write-error=true"
-readonly JAVA_OPTS="-server -Xms128m -Xmx320m -XX:PermSize=128M -XX:MaxPermSize=256M $JAVA_RUN"
+readonly JAVA_OPTS="-server -Xms1024m -Xmx1024m -XX:PermSize=512M -XX:MaxPermSize=512M $JAVA_RUN"
 
 readonly JAVA="java"
 
