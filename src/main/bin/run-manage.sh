@@ -17,7 +17,7 @@ readonly JAVA_RUN="-Dlogs.home=$LOGS_HOME -Dlogging.config=$LOG_CONFIG -Dspring.
 readonly JAVA_OPTS="-server -Xms1024m -Xmx1024m -XX:PermSize=512M -XX:MaxPermSize=512M $JAVA_RUN"
 
 readonly JAVA="java"
-
+  
 PID=0
 
 
