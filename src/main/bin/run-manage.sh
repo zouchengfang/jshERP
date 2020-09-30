@@ -60,6 +60,7 @@ function start() {
    then
       warning "[$APP_MAIN_CLASS]: already started! (PID=$PID)"
    else
+      echo "nohup $JAVA $JAVA_OPTS -jar $LIB_HOME/$APP_MAIN_CLASS > /dev/null 2>&1 &"
       echo -n "[$APP_MAIN_CLASS]: Starting ..."
       JAVA_CMD="nohup $JAVA $JAVA_OPTS -jar $LIB_HOME/$APP_MAIN_CLASS > /dev/null 2>&1 &"
       # echo "Exec cmmand : $JAVA_CMD"
